@@ -179,3 +179,11 @@ a {
     text-decoration: underline;
   }
 }
+/* Скрыть блок спонсорства и нижний подвал */
+footer, 
+.footer,
+[class*="Footer"],
+[class*="Sponsor"],
+aside {
+  display: none !important;
+}
